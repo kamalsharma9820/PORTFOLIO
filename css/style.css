@@ -6,7 +6,7 @@
     --ternary:#898989;
     --light:#F2F2F2;
     --secondary:#070606;
-    
+
 }
 body{
     font-family: 'Poppins',sans-serif;
@@ -18,12 +18,14 @@ body{
     box-sizing: border-box;
     -webkit-font-smotthing:antialiased ;
 
+
 }
+
 
 header{
     background-color: var(--dark);
     clip-path:polygon(0 0,100% 0,100% 100%,70% 85%,0 100%) ;
-   
+
 }
 .container{
     max-width: 1152px;
@@ -169,8 +171,8 @@ line-height: 0.5;
 
 .section-heading span{
     color: var(--primary);
-    
-   
+
+
 
 }
 
@@ -179,8 +181,8 @@ line-height: 0.5;
     font-family: 'lato',sans-serif;
     margin-bottom: 6rem;
     text-align: center;
-    
-    
+
+
 
 }     
 
@@ -195,7 +197,7 @@ section.education .card-wrapper{
     grid-column-gap: 2rem;
     grid-row-gap: 5rem;
     padding: 3rem 2rem;
-   
+
 }
 
 section.education .card-wrapper .card{
@@ -254,4 +256,7 @@ section.freelancer h1{
 section.freelancer p{
     margin-bottom: 2rem;
     font-family: 'lato',sans-serif;
-}
+     }
+     @media (max-width: 786px){
+        
+     }
